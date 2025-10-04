@@ -1,0 +1,19 @@
+Started by user [8mha:////4BfzYkL97pWjaUDzUxSNdxkloVc+aqyqgJ2yi5ZrumhWAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSikozMbACIpkGuwgAAAA==[0mkarthik
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/jenkins-backup-job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kskarthik172/backup_repo.git
+ > git init /var/lib/jenkins/workspace/jenkins-backup-job # timeout=10
+Fetching upstream changes from https://github.com/kskarthik172/backup_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/kskarthik172/backup_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kskarthik172/backup_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE
