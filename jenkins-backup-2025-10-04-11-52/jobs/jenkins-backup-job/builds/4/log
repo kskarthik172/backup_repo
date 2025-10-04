@@ -1,0 +1,21 @@
+Started by user [8mha:////4BfzYkL97pWjaUDzUxSNdxkloVc+aqyqgJ2yi5ZrumhWAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSikozMbACIpkGuwgAAAA==[0mkarthik
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/jenkins-backup-job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/jenkins-backup-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kskarthik172/backup_repo.git # timeout=10
+Fetching upstream changes from https://github.com/kskarthik172/backup_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/kskarthik172/backup_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision eb927857cf4b4f4e9b45157685432ccf36283e21 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eb927857cf4b4f4e9b45157685432ccf36283e21 # timeout=10
+Commit message: "first commit"
+ > git rev-list --no-walk eb927857cf4b4f4e9b45157685432ccf36283e21 # timeout=10
+[jenkins-backup-job] $ /bin/bash /tmp/jenkins13828244035234487613.sh
+Creating backup directory at: /var/lib/jenkins/workspace/jenkins-backup-job/git-backup/jenkins-backup-2025-10-04-11-52
+Copying Jenkins data...
